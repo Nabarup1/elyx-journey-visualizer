@@ -1,0 +1,56 @@
+.timeline-wrapper h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+}
+
+.month-group h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 20px 0 10px 0;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 15px;
+    padding: 12px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-left: 3px solid transparent;
+}
+
+.timeline-item:hover {
+    background-color: #eaf2fa;
+}
+
+.timeline-item.selected {
+    background-color: #dbe9f9;
+    border-left: 3px solid var(--primary-color);
+}
+
+.timeline-date {
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #888;
+    white-space: nowrap;
+}
+
+.timeline-summary {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.event-icons {
+    margin-top: 5px;
+}
+
+.event-icon {
+    font-size: 1rem;
+    margin-right: 5px;
+    cursor: help;
+}
